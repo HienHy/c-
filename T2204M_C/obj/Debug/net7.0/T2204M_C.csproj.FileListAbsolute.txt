@@ -1,0 +1,15 @@
+/Users/hiennd/Documents/GitHub/T2204M_C/T2204M_C/bin/Debug/net7.0/T2204M_C
+/Users/hiennd/Documents/GitHub/T2204M_C/T2204M_C/bin/Debug/net7.0/T2204M_C.deps.json
+/Users/hiennd/Documents/GitHub/T2204M_C/T2204M_C/bin/Debug/net7.0/T2204M_C.runtimeconfig.json
+/Users/hiennd/Documents/GitHub/T2204M_C/T2204M_C/bin/Debug/net7.0/T2204M_C.dll
+/Users/hiennd/Documents/GitHub/T2204M_C/T2204M_C/bin/Debug/net7.0/T2204M_C.pdb
+/Users/hiennd/Documents/GitHub/T2204M_C/T2204M_C/obj/Debug/net7.0/T2204M_C.csproj.AssemblyReference.cache
+/Users/hiennd/Documents/GitHub/T2204M_C/T2204M_C/obj/Debug/net7.0/T2204M_C.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hiennd/Documents/GitHub/T2204M_C/T2204M_C/obj/Debug/net7.0/T2204M_C.AssemblyInfoInputs.cache
+/Users/hiennd/Documents/GitHub/T2204M_C/T2204M_C/obj/Debug/net7.0/T2204M_C.AssemblyInfo.cs
+/Users/hiennd/Documents/GitHub/T2204M_C/T2204M_C/obj/Debug/net7.0/T2204M_C.csproj.CoreCompileInputs.cache
+/Users/hiennd/Documents/GitHub/T2204M_C/T2204M_C/obj/Debug/net7.0/T2204M_C.dll
+/Users/hiennd/Documents/GitHub/T2204M_C/T2204M_C/obj/Debug/net7.0/refint/T2204M_C.dll
+/Users/hiennd/Documents/GitHub/T2204M_C/T2204M_C/obj/Debug/net7.0/T2204M_C.pdb
+/Users/hiennd/Documents/GitHub/T2204M_C/T2204M_C/obj/Debug/net7.0/T2204M_C.genruntimeconfig.cache
+/Users/hiennd/Documents/GitHub/T2204M_C/T2204M_C/obj/Debug/net7.0/ref/T2204M_C.dll
