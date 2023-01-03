@@ -1,26 +1,28 @@
-﻿<Properties StartupConfiguration="{3491C361-6C64-438C-85A1-A638E676786A}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+﻿<Properties StartupConfiguration="{3491C361-6C64-438C-85A1-A638E676786A}|Default" GitUserInfo="UsingMD">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.T2204M__C PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="T2204M_C/Program.cs">
     <Files>
-      <File FileName="T2204M_C/Program.cs" Line="17" Column="10" />
-      <File FileName="T2204M_C/ss1/Human.cs" Line="16" Column="42" />
+      <File FileName="T2204M_C/Program.cs" Line="23" Column="20" />
+      <File FileName="T2204M_C/ss1/Human.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="T2204M_C" expanded="True">
             <Node name="T2204M_C" expanded="True">
-              <Node name="ss1" expanded="True" selected="True" />
+              <Node name="ss1" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.T2204M__C PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
 </Properties>
