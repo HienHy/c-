@@ -9,8 +9,12 @@
 
   <ItemGroup>
     <None Remove="ss1\" />
+    <None Remove="ss2\" />
+    <None Remove="ss3\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ss1\" />
+    <Folder Include="ss2\" />
+    <Folder Include="ss3\" />
   </ItemGroup>
 </Project>

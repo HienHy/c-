@@ -5,10 +5,29 @@ namespace T2204M_C.ss1
 	{
 		public string name;
         public int age;
-		public void Eat()
+        public String address;
+
+        public Human()
+        {
+            Console.WriteLine("hello world");
+        }
+
+        public Human(string name, int age, string address)
+        {
+            this.name = name;
+            this.age = age;
+            this.address = address;
+        }
+
+        public void Eat()
 		{
 			Console.WriteLine("Eating.....!");
 		}
+
+        public void Eat(String msg)
+        {
+            Console.WriteLine("Eating.....!"+msg);
+        }
 
 
         public void Run()
