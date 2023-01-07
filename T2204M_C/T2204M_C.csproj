@@ -10,11 +10,15 @@
   <ItemGroup>
     <None Remove="ss1\" />
     <None Remove="ss2\" />
-    <None Remove="ss3\" />
+    <None Remove="ss4\" />
+    <None Remove="exp\tien dien\" />
+    <None Remove="exp\phone\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ss1\" />
     <Folder Include="ss2\" />
-    <Folder Include="ss3\" />
+    <Folder Include="ss4\" />
+    <Folder Include="exp\tien dien\" />
+    <Folder Include="exp\phone\" />
   </ItemGroup>
 </Project>
