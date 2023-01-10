@@ -13,6 +13,8 @@
     <None Remove="ss4\" />
     <None Remove="exp\tien dien\" />
     <None Remove="exp\phone\" />
+    <None Remove="ss5\" />
+    <None Remove="exp\as8\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ss1\" />
@@ -20,5 +22,7 @@
     <Folder Include="ss4\" />
     <Folder Include="exp\tien dien\" />
     <Folder Include="exp\phone\" />
+    <Folder Include="ss5\" />
+    <Folder Include="exp\as8\" />
   </ItemGroup>
 </Project>

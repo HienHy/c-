@@ -3,21 +3,90 @@ using T2204M_C.ss1;
 using T2204M_C.ss2;
 using T2204M_C.ss4;
 using T2204M_C.exp.tiendien;
+using T2204M_C.ss5;
+using T2204M_C.exp.as8;
+
 public class Program
 
 {
-
-
     public static void Main(string[] args)
     {
-        NN nN = new NN(1,"hien nguyen","22/02/2022","sinh hoat",150,"nga");
-       
+        News news = new News(1,"h","s","a","b",3/2);
+        news.Display();
 
-        Console.WriteLine(nN.TT());
-        VN vN = new VN(2, "hien", "sinh hoat", "22/02/2022",200);
-        Console.WriteLine(vN.TT());
-
+        
     }
+
+    //public static void Main(string[] args)
+    //{
+    //    DemoDelegate.Alert("cam thanh vien duoi 18t");
+    //    DemoDelegate d = new DemoDelegate();
+    //    d.ShowMessage("canh bao lan 1");
+
+    //    PrintString pgs = new PrintString(ShowDanger);
+    //    //pgs("nguy hiem lam");
+
+
+    //    //PrintString ps2 = new PrintString(DemoDelegate.Alert);
+    //    //PrintString ps3 = new PrintString(new DemoDelegate().ShowMessage);
+
+
+
+    //    pgs += DemoDelegate.Alert;
+    //    pgs += new DemoDelegate().ShowMessage;
+    //    pgs("nguy hiem lam");
+
+    //    pgs += (s) =>
+    //    {
+    //        Console.WriteLine("Anonymus :" + s);
+    //    };
+
+
+
+
+
+
+
+
+
+
+
+    //    DemoEvent de = new DemoEvent();
+    //    de.ClickAction();
+
+    //}
+
+
+
+    //public static void ShowDanger(String mg)
+    //{
+    //    Console.WriteLine("a" + mg);
+    //}
+
+
+
+
+
+
+
+
+
+
+    //public static void Main(string[] args)
+    //{
+
+
+
+    //    NN nN = new NN(1,"hien nguyen","22/02/2022","sinh hoat",150,"nga");
+    //    NN nN2 = new NN(1, "hien nguyen", "22/02/2022", "sinh hoat", 250, "nga");
+
+
+
+    //    Console.WriteLine(nN.TT());
+    //    VN vN = new VN(2, "hien", "sinh hoat", "22/02/2022",200);
+    //    Console.WriteLine(vN.TT());
+
+    //}
 
 
     //public static void Main(string[] args)
