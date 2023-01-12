@@ -11,12 +11,36 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        News news = new News(1,"h","s","a","b",3/2);
-        news.Display();
+        Thread thread = new Thread(RunThread);
+        thread.Start("Xin chao");
+        Thread t2 =new Thread(delegate() {
+
+            Console.WriteLine("Demo anonymous function");
+	});
+
+        t2.Start();
+        
+        Console.WriteLine("Main done");
 
         
     }
 
+
+    static void RunThread(Object o)
+    {
+        for(int i = 0; i < 20; i++)
+        {
+            Console.WriteLine(o+"i=:" + i);
+            try
+            {
+                Thread.Sleep(1000);
+            }
+            catch (Exception e)
+            {
+
+            }
+        }
+    }
     //public static void Main(string[] args)
     //{
     //    DemoDelegate.Alert("cam thanh vien duoi 18t");

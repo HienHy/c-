@@ -10,16 +10,19 @@ namespace T2204M_C.exp.as8
         private String content;
         private float averageRate;
 
+        int[] RateList =new int[3];
+
+
+
         public News(int id, string title, string publishDate, string author, string content, float averageRate)
         {
             this.id = id;
             this.title = title;
             this.publishDate = publishDate;
-            this.author = author;
+           this.author = author;
             this.content = content;
             this.averageRate = averageRate;
         }
-
 
         public int Id { get => id; set => id = value; }
         public string Title { get => title; set => title = value; }
