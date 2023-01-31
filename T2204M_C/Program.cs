@@ -5,6 +5,9 @@ using T2204M_C.ss4;
 using T2204M_C.exp.tiendien;
 using T2204M_C.ss5;
 using T2204M_C.exp.as8;
+using System.Net.Http;
+using T2204M_C.ss6;
+using Newtonsoft.Json;
 
 public class Program
 
@@ -41,6 +44,34 @@ public class Program
             }
         }
     }
+
+
+
+
+
+
+
+    static async Task<Root> CallApi()
+    {
+        String url = "https://api.openweathermap.org/data/2.5/weather?q=Hanoi,vietnam&appid=09a71427c59d38d6a34f89b47d75975c&units=metric";
+        HttpClient httpClient = new HttpClient();
+        var rs = await httpClient.GetAsync(url);//lay data ve
+
+        if(rs.StatusCode == System.Net.HttpStatusCode.OK)
+        {
+            string content = await rs.Content.ReadAsStringAsync();
+            Root r = JsonConvert.DeserializeObject<Root>(content);
+            return r;
+        }
+        return null;
+    }
+
+
+
+
+
+
+
     //public static void Main(string[] args)
     //{
     //    DemoDelegate.Alert("cam thanh vien duoi 18t");

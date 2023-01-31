@@ -1,8 +1,15 @@
 ﻿using System;
-namespace T2204M_C.exp.as11
+namespace house.cm
 {
 	public interface IHouse
 	{
-	}
+        public void Input();
+
+        public void Display();
+
+    }
+
+
+
 }
 

@@ -18,6 +18,7 @@
     <None Remove="ss6\" />
     <None Remove="Newtonsoft.Json" />
     <None Remove="exp\as11\" />
+    <None Remove="exp\as12\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ss1\" />
@@ -29,6 +30,7 @@
     <Folder Include="exp\as8\" />
     <Folder Include="ss6\" />
     <Folder Include="exp\as11\" />
+    <Folder Include="exp\as12\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />

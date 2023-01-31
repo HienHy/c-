@@ -1,9 +1,14 @@
 ﻿using System;
-namespace T2204M_C.exp.as11
+using System.IO;
+namespace house.hanoi
 {
 	public class ManagerHouse
 	{
-		public ManagerHouse()
+		
+        int num = Convert.ToInt32(Console.ReadLine());
+
+		
+        public ManagerHouse()
 		{
 		}
 	}

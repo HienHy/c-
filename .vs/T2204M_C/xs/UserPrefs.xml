@@ -1,24 +1,34 @@
 ﻿<Properties StartupConfiguration="{3491C361-6C64-438C-85A1-A638E676786A}|Default" GitUserInfo="UsingMD">
-  <MonoDevelop.Ide.Workbench ActiveDocument="T2204M_C/ss2/Animal.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="T2204M_C/exp/as11/IHouse.cs">
     <Files>
-      <File FileName="T2204M_C/ss2/Animal.cs" Line="2" Column="1" />
-      <File FileName="T2204M_C/ss2/Dog.cs" Line="1" Column="1" />
-      <File FileName="T2204M_C/ss1/Fraction.cs" Line="1" Column="1" />
-      <File FileName="T2204M_C/ss2/IAnimal.cs" Line="1" Column="1" />
+      <File FileName="T2204M_C/exp/as11/HaNoiHouse.cs" Line="21" Column="36" />
+      <File FileName="T2204M_C/exp/as11/ManagerHouse.cs" Line="11" Column="30" />
+      <File FileName="T2204M_C/exp/as11/IHouse.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="T2204M_C" expanded="True">
             <Node name="T2204M_C" expanded="True">
-              <Node name="ss1" expanded="True" />
-              <Node name="ss2" expanded="True">
-                <Node name="Animal.cs" selected="True" />
+              <Node name="exp" expanded="True">
+                <Node name="as11" expanded="True">
+                  <Node name="IHouse.cs" selected="True" />
+                </Node>
+                <Node name="as8" expanded="True" />
+                <Node name="phone" expanded="True" />
+                <Node name="tien dien" expanded="True" />
               </Node>
-              <Node name="ss3" expanded="True" />
+              <Node name="ss1" expanded="True" />
+              <Node name="ss2" expanded="True" />
+              <Node name="ss4" expanded="True" />
+              <Node name="ss5" expanded="True" />
+              <Node name="ss6" expanded="True" />
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
