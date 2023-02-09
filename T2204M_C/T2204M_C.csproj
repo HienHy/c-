@@ -19,6 +19,9 @@
     <None Remove="Newtonsoft.Json" />
     <None Remove="exp\as11\" />
     <None Remove="exp\as12\" />
+    <None Remove="exp\exam\" />
+    <None Remove="exp\exam\GeometryExample\" />
+    <None Remove="exp\exam\exercise2\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ss1\" />
@@ -31,6 +34,9 @@
     <Folder Include="ss6\" />
     <Folder Include="exp\as11\" />
     <Folder Include="exp\as12\" />
+    <Folder Include="exp\exam\" />
+    <Folder Include="exp\exam\GeometryExample\" />
+    <Folder Include="exp\exam\exercise2\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
